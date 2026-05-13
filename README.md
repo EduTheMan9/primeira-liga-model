@@ -1,2 +1,2 @@
 # Primeira-Liga-Prediction-Model
-Prediction Model of the Portuguese League (Primeira Liga)
+Built a Maher-Poisson model in statsmodels and validated it against a held-out season of Primeira Liga matches. Achieved log-loss of 0.955 vs Pinnacle's 0.916, capturing ~76% of the available signal versus a base-rate benchmark."

@@ -19,7 +19,7 @@ def fetch_season(season: str) -> pd.DataFrame:
     url = f"{BASE_URL}/{season}/{LEAGUE_CODE}.csv"
     print(f"  Fetching {season} from {url}")
     df = pd.read_csv(url)
-    df["Season"] = season
+    df = df.assign(Season=season)
     return df
 
 
