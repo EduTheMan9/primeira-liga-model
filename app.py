@@ -264,5 +264,5 @@ else:
 st.divider()
 st.caption(
     "Model: Dixon-Coles (1997) with τ correction. Trained on Primeira Liga matches "
-    "from 2021-22 to 2025-26. Built by Eduardo Tavares, IEM student at Faculdade de Engenharia da Universidade do Porto."
+    "from 2021-22 to 2025-26. Built by Eduardo Tavares, IEM student at Faculdade de Engenharia da Universidade do Porto, with Claude Code assistance."
 )
